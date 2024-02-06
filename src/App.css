@@ -5,11 +5,9 @@ body {
     rgb(253, 240, 233) 2.2%,
     rgb(255, 194, 203) 96.2%
   );
-  /* Purple and pink hue  */
-  /* background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 }
 
-.showcase-container {
+.game-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,26 +21,8 @@ body {
 
 .peony-flower-gif {
   height: 80%;
-  width: 95%;
+  width: 90%;
 }
-
-/* .blank-slate-card-placement.final-flip-gif-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 0;
-  overflow: hidden;
-} */
-
-/* .final-flip-gif-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 0; 
-  overflow: hidden;
-} */
 
 .navigation-button {
   line-height: 12px;
