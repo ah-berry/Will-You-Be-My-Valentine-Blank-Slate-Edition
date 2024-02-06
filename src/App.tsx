@@ -15,14 +15,17 @@ import "./App.css";
 // ** Style gif on the final flip.
 // ** Style the page on the final flip (add a pink gradient, add a moving background, etc).
 // ** Increase the size of the words.
-// Get song to play on mobile.
-// Style the back side of the final card (change text font, add filagry borders, etc).
+// ** Style the back side of the final card (** change text font).
 // ** Make the button pop on hover.
 // Test the website on Safari and Chrome.
-// Add the words to use.
+// ** Add the words to use.
+// Get song to play on mobile.
 
 // Notes:
-// Can add overlay gif over a pink gradient background but the all white looks nice too.
+// ** Can add overlay gif over a pink gradient background but the all white looks nice too.
+// Can have a hidden button behind the front side of the final card to initiate a song play.
+// Confirm if a div can be clicked.
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>;
 
 function App() {
@@ -55,22 +58,22 @@ function App() {
 const BLANK_SLATE_CARDS = [
   {
     id: 1,
-    front_side_word: "Word 1",
-    back_side_word: "Word 2",
+    front_side_word: "______ Chocolate",
+    back_side_word: "Dinner ______",
   },
   {
     id: 2,
-    front_side_word: "Word 3",
-    back_side_word: "Word 4",
+    front_side_word: "______ Card",
+    back_side_word: "Hot ______",
   },
   {
     id: 3,
-    front_side_word: "Word 5",
-    back_side_word: "Word 6",
+    front_side_word: "______ Business",
+    back_side_word: "Love ______",
   },
   {
     id: 4,
-    front_side_word: "Word 7",
+    front_side_word: "Valentine ______",
     back_side_word: "Will you be my Valentine?",
   },
 ];

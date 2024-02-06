@@ -1,7 +1,12 @@
 body {
-  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-  position: relative;
-  z-index: 0;
+  /* Pink hue */
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+  /* Purple and pink hue  */
+  /* background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
 }
 
 .showcase-container {
@@ -89,6 +94,8 @@ body {
 }
 
 .blank-slate-card.flipped.final-flip {
+  border: rgb(255, 194, 203) 5px solid;
+  border-radius: 1rem;
 }
 
 .blank-slate-card .front,
@@ -98,6 +105,13 @@ body {
   backface-visibility: hidden;
   font-weight: bolder;
   font-size: 15pt;
+}
+
+.blank-slate-card .back.final-flip {
+  font-family: "Courier New", Courier, monospace;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(184, 105, 118);
 }
 
 .blank-slate-card .back {
